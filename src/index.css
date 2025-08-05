@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "FH";
+  src: local('FH'), url(./FH.ttf) format('truetype');
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.heading {
+  font-family: "FH";
+}
