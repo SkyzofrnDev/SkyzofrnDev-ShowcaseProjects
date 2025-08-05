@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router'
-import { Landing } from './Layout/Index'
+import MainLayout from './Layout/MainLayout/MainLayout'
 
 const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Landing />} />
+        <Route path='/' element={<MainLayout />} />
       </Routes>
     </>
   )
