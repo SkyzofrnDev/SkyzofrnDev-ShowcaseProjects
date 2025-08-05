@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "FH";
+    src: url("./FH.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
+.heading {
+  font-family: "FH";
+}
