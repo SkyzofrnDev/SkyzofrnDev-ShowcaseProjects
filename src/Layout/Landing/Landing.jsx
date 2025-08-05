@@ -5,7 +5,7 @@ import arrow from "../../assets/arrow.svg";
 
 const Landing = () => {
   return (
-    <div className=" selection:bg-white flex flex-col selection:text-black bg-fixed text-white bg-cover bg-center bg-no-repeat px-10 h-screen justify-between">
+    <div className=" selection:bg-white flex flex-col selection:text-black bg-fixed text-white bg-cover bg-center bg-no-repeat px-5 md:px-10 h-screen justify-between pb-5 md:pb-20">
       <Navbar />
       <div className="w-[50%]">
         <BlurText
@@ -25,14 +25,14 @@ const Landing = () => {
           <img src={arrow} alt="" srcset="" />
         </a>
       </div>
-      <div className="flex flex-col items-end justify-start md:justify-end">
+      <div className="flex flex-col md:items-end">
         <a href="/">
           <BlurText
             text="SKYZOFRNDEV"
             delay={150}
             animateBy="words"
             direction="top"
-            className="text-5xl md:text-[5em] lg:text-[8em] xl:text-[10em] mb-8 heading text-white/50 hover:text-[#fff]"
+            className="text-5xl sm:text-7xl md:text-[5em] lg:text-[8em] xl:text-[10em] mb-2 sm:mb-4 md:mb-8 heading text-white/50 hover:text-[#fff]"
           />
         </a>
         <BlurText
@@ -40,7 +40,7 @@ const Landing = () => {
           delay={150}
           animateBy="words"
           direction="top"
-          className="text-5xl mb-8 heading text-white/50"
+          className="text-2xl sm:text-3xl md:text-5xl heading text-white/50"
         />
       </div>
     </div>
